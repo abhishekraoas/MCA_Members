@@ -89,7 +89,7 @@
 
 }
 .memberelement{
-    background-color: #caf7f7;
+    background-color:#c5ecec;
     margin: 2px;
     border: none;
     border-radius: 10px;
@@ -201,3 +201,17 @@
     display: inline-block;
 }
     
+#cr{
+    background-color: #6ff39f;
+    border: none;
+    transition: background-color 0.9s;
+    
+}
+#cr:hover{
+    background-color: #13f164;
+}
+.crtext{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
