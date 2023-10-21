@@ -4,9 +4,14 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background: url('images/back-image.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .container{
     border: none;
-    background-color:#EEEEEE;
+    /* background-color:#EEEEEE; */
     padding: 4px;
 }
 .footercontainer{
@@ -28,12 +33,13 @@
     color: black;
     font-weight: 600;
     margin: 0px 2px 0px 4px;
-    background-color: #f7941d;
+    background-color: #f8ad23;
 
 }
 .members{
-    border: 2px solid black;
-    background-color: #f7941d;
+    border: none;
+    background: transparent;
+    backdrop-filter: blur(30px);
     color: white;
     display: flex;
     margin: 10px 0px 10px 0px ;
@@ -79,7 +85,7 @@
     border-radius: 4px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: #424646;
+    /* background-color: #424646; */
 
 }
 .membergroupheading{
@@ -96,16 +102,18 @@
     padding: 4px 0px 4px 0px;
 }
 .memberelement{
-    background-color: #EEEEEE;
+    box-shadow: 2px 2px 8px black;
+    background: -webkit-radial-gradient(34% -34%,#f9cd7a, #EEE);
+    opacity: 1;
     margin: 2px;
     border: none;
     border-radius: 10px;
     overflow: hidden;
-    transition: background-color 0.9s;
 }
+
 .memberelement:hover{
-    background-color: #f7941d;
-    
+    background: -webkit-radial-gradient(-34% 34%, #EEE,#f9cd7a);
+
 }
 
 .memberphoto{
@@ -119,6 +127,7 @@
 .membername{
     text-align: center;
 }
+
 
 
 .lilink{
@@ -188,6 +197,7 @@
 }
 .name{
     color: black;
+    font-weight: 600;
     text-shadow: none;
     padding-top: 4px;
     font-size: 0.8em;
@@ -203,7 +213,7 @@
     margin-top: 3px;
     margin-bottom: 3px;
     color: black;
-    background-color: #f7941d;
+    background-color: #f8ad23;
 }
 #textinfoot{
     font-weight: 600;
@@ -222,21 +232,21 @@
 
 
 #cr{
-    background-color: #6ff39f;
+    background:-webkit-radial-gradient(34% -34%,#6ff39f, #EEE);
     border: none;
-    transition: background-color 0.9s;
     
 }
 #cr:hover{
-    background-color: #13f164;
+    background:-webkit-radial-gradient(-34% 34%, #EEE ,#6ff39f);
+
 }
 #cs{
-    background-color: #f5e96a;
+    background:-webkit-radial-gradient(34% -34%,#f42000, #EEE);
     border: none;
-    transition: background-color 0.9s;
 }
 #cs:hover{
-    background-color: #fce700;
+    background:-webkit-radial-gradient(-34% 34%, #EEE,#f42000);
+
 }
 .crtext{
     text-align: center;
