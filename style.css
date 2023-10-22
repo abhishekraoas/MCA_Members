@@ -98,23 +98,26 @@ body{
     }
     /* Styles to The faculty link container */
     .facultylink{
+        font-size: 22px;
         text-decoration: none;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
-        color: black;
-        text-shadow: none;
+        color: #EEE;
+        text-shadow: 2px 2px 4px black;
         font-style: italic;
-        font-weight: 800;
+        font-weight: bold;
+        transition: all 0.2s;
     }
+    .facultylink:hover{
+        cursor: pointer;
+        color: #f8ad23;
+        text-shadow: 2px 2px 5px black;
 
-    /* Style to The link text of faculty */
-
-    .faclink{
-        color: black;
     }
-
+    #faclink{
+        animation-name: link-move;
+    }
+    
  /* Styles to container containing all members */
 
 .members{
@@ -236,23 +239,45 @@ body{
     }
     /* Style to text container of footer */
     .foottext{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
         padding: 8px;
         margin-top: 3px;
         margin-bottom: 3px;
         color: black;
         background-color: #f8ad23;
     }
+    /* Styles for Social Media Icon container */
+    .footerhandles{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     /* Styles to logos of social links */
     .instaimg, .gitimg, .repimg{
+        padding-left: 3px;
         width: 30px;
-        border-radius: 40px;
+        border-radius: 60px;
         border: none;
     }
-    /* Styles to social logo containers */
-    .insta,.github,.replit{
+    /* Styles for Join Now button */
+    .btn{
         border: none;
-        display: inline-block;
+        padding: 3px;
+        width: 90px;
+        height: 30px;
+        font-family: "poppins";
+        border-radius: 20px;
+        font-weight: 600;
+        box-shadow: none;
     }
+    .btn:hover{
+        box-shadow: 2px 2px 4px black;
+        cursor: pointer;
+    }
+   
 
 /* Styles for Distinguishing Designated members from others */
 #cr{
@@ -304,7 +329,18 @@ body{
     .membercontainer{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    
+    .foottext{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .btn{
+        width: 140%;
+        font-size: 18px;
+        padding: 0px;
+        text-decoration: none;
+    }
+   
 }
 @media(min-width: 1000px){
     .membercontainer{
