@@ -123,7 +123,7 @@ export const juniorDataArray = [
         id: 21,
         name: "AVANISH TIWARI",
         lilink: "https://www.linkedin.com/in/avanish-tiwari-691458291/",
-        imgHref: "../images/nodp.png"
+        imgHref: "./images/nodp.png"
     },
     {
         id: 22,
@@ -153,7 +153,7 @@ export const juniorDataArray = [
         id: 26,
         name: "JATIN SRIVASTAVA",
         lilink: "https://www.linkedin.com/in/jatin-srivastava-756271293/",
-        imgHref: "../images/nodp.png"
+        imgHref: "./images/nodp.png"
     },
     {
         id: 27,
@@ -462,7 +462,7 @@ export const seniorDataArray = [
         id: 8,
         name: "SUHANI SRIVASTAVA",
         lilink: "https://www.linkedin.com/in/suhani-srivastava-73bab6258/",
-        imgHref: "../images/nodp.png"
+        imgHref: "./images/nodp.png"
     },
     {
         id: 9,
@@ -606,7 +606,7 @@ export const seniorDataArray = [
         id: 32,
         name: "AMAN OMER",
         lilink: "https://www.linkedin.com/in/aman-omer-017a0a1a8/",
-        imgHref: "../images/nodp.png"
+        imgHref: "./images/nodp.png"
     },
     {
         id: 33,
@@ -768,7 +768,7 @@ export const seniorDataArray = [
         id: 59,
         name: "VARSHIP KATIYAR",
         lilink: "https://www.linkedin.com/in/varshipkatiyar/",
-        imgHref: "../images/nodp.png"
+        imgHref: "./images/nodp.png"
     },
     {
         id: 60,
