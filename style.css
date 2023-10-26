@@ -224,12 +224,13 @@ body{
 
 /* Style to the footer container  */
 .footer{
-    border: 2px solid black;
+    border: none;
     margin: 2px auto 2px auto;
-    background-color:#424646;
-    display: inline-block;
+    background-color:transparent;
     width:100%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   
 }
     /* Style to textpara inside footer */
@@ -256,12 +257,7 @@ body{
     }
 
     /* Styles to logos of social links */
-    .instaimg, .gitimg, .repimg{
-        padding-left: 3px;
-        width: 30px;
-        border-radius: 60px;
-        border: none;
-    }
+    
     /* Styles for Join Now button */
     .btn{
         border: none;
@@ -277,6 +273,78 @@ body{
         box-shadow: 2px 2px 4px black;
         cursor: pointer;
     }
+
+    .sitecontributers{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+    }
+    .contri-member{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 2px 2px 8px 4px black;
+        background: -webkit-radial-gradient(34% -34%,#0cf6fa, #EEE);
+    }
+    .contri-member i{
+        font-size: 30px;
+        background: none;
+        
+    }
+    .contri-member a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contri-member p{
+        position: relative;
+        bottom: 0px;
+        font-weight: bolder;
+    }
+    .contri-member img{
+        width: 100%;
+    
+    }
+    .code-icons{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        background-color: #424646;
+    }
+    .footer p{
+        font-size: 1rem;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+   
+    #foot-memgrp-head{
+        display: flex;
+        justify-content: center;
+    }
+    #foot-memgrp-head button{
+        font-size: 1rem;
+        border: none;
+        padding: 6px; 
+        background-color: transparent;  
+        color: white;
+        font-weight: bold;     
+        text-shadow: 1px 1px 8px black;
+        cursor: pointer;
+    }
+    /* Style for coding icons */
+
+    #html5{color: #e34c26;text-shadow: 1px 1px 3px black;} 
+    #css3{ color: #264de4;text-shadow: 1px 1px 3px black;}
+    #java-script{color: #ffff00; text-shadow: 1px 1px 3px black;}
    
 
 /* Styles for Distinguishing Designated members from others */
@@ -341,6 +409,13 @@ body{
         text-decoration: none;
     }
    
+    .sitecontributers p{
+        font-size: 0.8rem;
+    }
+    .contri-member{
+        width: 40%;
+    }
+   
 }
 @media(min-width: 1000px){
     .membercontainer{
@@ -358,4 +433,11 @@ body{
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    .footer{
+        flex-direction: row;
+    }
+    .contri-member{
+        width: 20%;
+    }
+    
 }

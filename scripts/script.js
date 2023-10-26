@@ -39,3 +39,12 @@ seniorDataArray.forEach(user => {
         </div>
     `);
 });
+
+document.getElementById('showButton').addEventListener('click', function() {
+    var siteContributers = document.querySelector('.sitecontributers');
+    if (siteContributers.style.display === 'none' || siteContributers.style.display === '') {
+      siteContributers.style.display = 'flex';
+    } else {
+      siteContributers.style.display = 'none';
+    }
+  });

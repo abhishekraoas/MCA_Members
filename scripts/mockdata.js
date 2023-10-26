@@ -1,22 +1,5 @@
 export const juniorDataArray = [
-    {
-        id: 1,
-        name: "SURYAM SRIVASTAVA",
-        lilink: "https://www.linkedin.com/in/suryam-srivastava-2b355721a/",
-        imgHref: "./dp/1693115707308.jpeg"
-    },
-    {
-        id: 2,
-        name: "PRIYANKA SINGH",
-        lilink: "https://www.linkedin.com/in/priyanka-singh-855a79148/",
-        imgHref: "./dp/priyankas.jpeg"
-    },
-    {
-        id: 3,
-        name: "KRISHNA SINGH",
-        lilink: "https://www.linkedin.com/in/krishna-singh-b17b4a280/",
-        imgHref: "./dp/1693077275477.jpeg"
-    },
+    
     {
         id: 4,
         name: "UTKARSH TIWARI",
