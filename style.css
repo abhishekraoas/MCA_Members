@@ -274,6 +274,7 @@ body{
         cursor: pointer;
     }
 
+    /*styles for the contributers section  */
     .sitecontributers{
         display: flex;
         align-items: center;

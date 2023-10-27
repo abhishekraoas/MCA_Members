@@ -398,6 +398,8 @@ export const juniorDataArray = [
     }
 ];
 
+juniorDataArray.sort((a, b) => a.name.localeCompare(b.name));
+
 export const seniorDataArray = [
     {
         id: 1,
@@ -779,3 +781,4 @@ export const seniorDataArray = [
     }
 ]
 
+seniorDataArray.sort((a, b) => a.name.localeCompare(b.name));
